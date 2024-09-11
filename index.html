@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safeland Constitution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f4e7;
+            color: #333;
+            margin: 50px;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 40px;
+            margin-bottom: 40px;
+            text-decoration: underline;
+            color: #3e3e3e;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-decoration: underline;
+            color: #3e3e3e;
+        }
+
+        p {
+            text-indent: 70px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 70px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+        .principles {
+            list-style-type: none;
+            counter-reset: principle-counter;
+        }
+
+        .principles li::before {
+            counter-increment: principle-counter;
+            content: counter(principle-counter) ". ";
+            font-weight: bold;
+            font-size: 22px;
+            color: #2f2f2f;
+        }
+
+        .signatures {
+            margin-top: 80px;
+        }
+
+        .signature-line {
+            margin-bottom: 80px;
+            text-align: left;
+        }
+
+        .signature-name {
+            border-bottom: 2px solid #000;
+            width: 400px;
+            font-family: 'Lucida Handwriting', cursive;
+            font-size: 28px;
+            display: block;
+            margin-bottom: 0px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            margin-right: auto;
+            color: #555;
+        }
+
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 800px;
+            height: auto;
+            opacity: 0.05;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .parchment-box {
+            background-color: #faf3e0;
+            border: 1px solid #d4b59a;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parchment-box">
+        <h1>Constitution of Safeland</h1>
+
+        <h2>Preamble</h2>
+        <p>We, Jacob and Taylor, keepers of Safeland, establish this constitution for the governance of
+            Safeland, our home. This document shall serve as a guide for our actions, decisions, and choices while encapsulating the values
+            we hold dear. It is our intention to live in harmony with God, our family, and the world; pursuing faith, love,
+            goodness, light, and security. In doing so, we hope to create a sanctuary of peace, happiness, and the presence of God.</p>
+
+        <h2>Article I: God</h2>
+        <ul class="principles">
+            <li>We serve only God and seek to make Him proud in all that we do, always remaining faithful to Him. We worship Him and pray to Him daily, beyond the times of meals.</li>
+            <li>We attend church each Sunday as a family and uphold the sacredness of the Sabbath.</li>
+            <li>We vow to follow the Ten Commandments, trusting in God to guide our life.</li>
+        </ul>
+
+        <h2>Article II: Family and Fellowship</h2>
+        <ul class="principles">
+            <li>We acknowledge the blessing of family. We shall appreciate and cherish our immediate and extended family, and the time we have with them.</li>
+        </ul>
+
+        <h2>Article III: Financial Security and Stability</h2>
+        <ul class="principles">
+            <li>We shall pray to obtain financial security, stability, and independence. We shall live free from financial debt
+                and manage our resources wisely.</li>
+            <li>We would like to retire safely and comfortably, without financial strain.</li>
+            <li>We would like to take one major vacation each year, in addition to zero to several smaller, domestic trips—living magical memories.</li>
+        </ul>
+
+        <h2>Article IV: Health and Well-Being</h2>
+        <ul class="principles">
+            <li>We shall hope to overflow with love for one another in our marriage.
+            </li>
+            <li>We shall attempt to eat a pure vegan diet and maintain good health, acknowledging the positive impact on our health and well-being.</li>
+            <li>We shall attempt to build happpiness in our home.</li>
+        </ul>
+
+        <h2>Article V: Work and Balance</h2>
+        <ul class="principles">
+            <li>We shall seek to live in the moment, with the spirit of God, enjoying our life and obtaining balance between work and life.</li>
+            <li>Our work will not only be a source of income but also be fulfilling to us.</li>
+            <li>We shall be very organized in our personal and work affairs.</li>
+            <li>Jacob shall attempt to obtain a Master's Degree.</li>
+            <li>Taylor shall attempt to obtain a Bachelor's Degree.</li>
+        </ul>
+
+        <h2>Article VI: Home and Family Life</h2>
+        <ul class="principles">
+            <li>We pray to live in a safe neighborhood and in a house we are pleased with.</li>
+            <li>We pray to have at least one child before Taylor reaches the age of thirty.</li>
+            <li>We would like to achieve our goal body composition.</li>
+            <li>We would like to take two walks or hikes per week for health and vitality—Jacob shall also attempt to run at least three times per week.</li>
+        </ul>
+
+        <h2>Article VII: Reading</h2>
+        <ul class="principles">
+            <li>We commit to reading the entire Bible, deepening our union with God's word.</li>
+            <li>Jacob commits to reading "The 7 Habits of Highly Effective People".</li>
+        </ul>
+
+        <h2>Amendment I: Removed Provisions</h2>
+        <ul>
+            <li>We shall no longer pursue the running of a marathon.</li>
+            <li>We shall no longer pursue the running of an Ironman.</li>
+            <li>Jacob shall no longer pursue a Doctor's Degree.</li>
+        </ul>
+
+        <div class="signatures">
+            <div class="signature-line">
+                <div class="signature-name">Jacob Hamade</div>
+                <div class="title">Prince of Safeland</div>
+            </div>
+
+            <div class="signature-line">
+                <div class="signature-name">Taylor Hamade</div>
+                <div class="title">Princess of Safeland</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Adopted by Jacob and Taylor in the Year 2024.
+    </footer>
+</body>
+
+</html>
